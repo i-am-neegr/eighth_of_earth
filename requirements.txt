@@ -1,0 +1,6 @@
+Django>=5.1
+psycopg2-binary
+aiogram==3.13.0
+python-dotenv
+django-environ
+Pillow
