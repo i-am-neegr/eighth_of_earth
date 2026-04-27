@@ -1,6 +1,7 @@
-Django>=5.1
-psycopg2-binary
 aiogram==3.13.0
+asyncpg
+sqlalchemy[asyncio]>=2.0
+aiohttp_socks
+alembic                  # для миграций
 python-dotenv
-django-environ
-Pillow
+Pillow                   # если нужны изображения
